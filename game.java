@@ -218,7 +218,7 @@ class Player {
 		String ValueY=Integer.toString(y);
 		g.drawString("X: "+ ValueX, 60, 50);
 		g.drawString("Y: "+ValueY, 60, 70);
-		
+		//Top bloklara carparsa veya yolun disina cikarsa baslangic noksasina doner,  The ball returns to the starting point if it hits the blocks or gets out of the window .
 		if(y==735){
 		if(x==195||x==200||x==205||x==210||x==215||x==220||x==225||x==230||x==235||x==240||x==245||x==250||x==255||x==260||x==265||x==270||x==275||x==280||x==285||x==290||x==295||x==300||x==305||x==310||x==315||x==320||x==325||x==330||x==335||x==340||x==345||x==350||x==355||x==360||x==365||x==370||x==375){
 			
